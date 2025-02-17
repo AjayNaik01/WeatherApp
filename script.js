@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+
     button.addEventListener("click", function (event) {
         event.preventDefault();
         const city = textInput.value.trim();
