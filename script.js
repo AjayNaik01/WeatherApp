@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const button = document.querySelector("#button");
     const textInput = document.querySelector("#text");
 
-    const Api = "fb78ce68a99992432a8ff7d2f6e857a0";
 
     function fetchError(type) {
         errorfetch.classList.add("hidden");
